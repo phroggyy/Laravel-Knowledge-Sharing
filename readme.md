@@ -16,6 +16,6 @@ You can contact me at either [leo.sjoberg@gmail.com](mailto:leo.sjoberg@gmail.co
 
 ### License
 
-The Laravel Knowledge Sharing app is an open-sourced application licensed under the [MIT license](http://opensource.org/licenses/MIT). However, you are encouraged to contribute your changes in accordance with the GPL v3.0 license.
+The Laravel Knowledge Sharing app is an open-sourced application licensed under the [GPL-3.0 License](http://opensource.org/licenses/gpl-3.0).
 
 The [Laravel Framework](http://laravel.com) is an open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
