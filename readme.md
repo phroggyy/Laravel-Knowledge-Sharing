@@ -1,23 +1,19 @@
-## Laravel PHP Framework
+# Laravel Knowledge Sharing
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Laravel Knowledge Sharing is a Laravel application which allows users to share links with a title and description. The application was developed for a session of the [European Youth Parliament (EYP)](http://eyp.org). More information about the session itself can be found at [Amsterdam2015](http://amsterdam2015.eu).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Installation
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+To install the application, configure your database settings in a .env environment file (you can use the provided .env.example for a template), and set up the correct database type in config/database.php. Once done, upload the app and run the migrations to create the database tables and relations. Note that the database seed is optional and is simply the one used for the EYP session.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Thank you for considering contributing to the Laravel Knowledge Sharing app. To make a contribution, fork the repository and propose a commit. You can also contact me for inquiries about contribution or anything else.
+
+## Contact
+
+You can contact me at either [leo.sjoberg@gmail.com](mailto:leo.sjoberg@gmail.com), [leo@leosjoberg.com](mailto:leo@leosjoberg.com), or [leo@rlstudio.se](mailto:leo@rlstudio.se).
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT). However, you are encouraged to contribute your changes in accordance with the GPL v3.0 license.
