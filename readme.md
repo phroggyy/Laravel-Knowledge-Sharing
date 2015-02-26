@@ -14,6 +14,12 @@ Thank you for considering contributing to the Laravel Knowledge Sharing app. To 
 
 You can contact me at either [leo.sjoberg@gmail.com](mailto:leo.sjoberg@gmail.com), [leo@leosjoberg.com](mailto:leo@leosjoberg.com), or [leo@rlstudio.se](mailto:leo@rlstudio.se).
 
+### To-do
+
+*   Product trial
+*   Generalisation of table, model, and function names
+*   A small admin interface to provide a convenient way of adding categories (committees currently), rather than using a database seeder
+
 ### License
 
 The Laravel Knowledge Sharing app is an open-sourced application licensed under the [GPL-3.0 License](http://opensource.org/licenses/gpl-3.0).
