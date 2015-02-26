@@ -1,0 +1,31 @@
+.pure-red {
+  background: red; }
+
+.circular-div-50 {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px; }
+
+.circular-div-100 {
+  border-radius: 100px; }
+
+.circular-div-200 {
+  border-radius: 200px; }
+
+.inline-block {
+  display: inline-block; }
+
+body {
+  background-color: #ededed; }
+
+.create-item {
+  font-size: 6.8rem;
+  color: white; }
+
+.committee-view div div {
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff; }
+  .committee-view div div h2 {
+    line-height: 6; }
+.committee-view .uploaded-resource h2 {
+  line-height: 1; }
