@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', ['uses' => 'WelcomeController@index', 'as' => 'welcome.index']);
 
 Route::get('home', 'HomeController@index');
 Route::get('knowledge/{committee}', ['uses' => 'KnowledgeController@index', 'as' => 'knowledge.committee.index']);
-Route::post('knowledge/{committee}', ['uses' => 'KnowledgeController@create', 'as' => 'knowledge.committee.create']);
+Route::post('knowledge/{committee}/create', ['uses' => 'KnowledgeController@create', 'as' => 'knowledge.committee.create']);
 
 
 Route::controllers([

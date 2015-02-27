@@ -27,5 +27,9 @@ body {
   background-color: #fff; }
   .committee-view div div h2 {
     line-height: 6; }
-.committee-view .uploaded-resource h2 {
-  line-height: 1; }
+.committee-view .uploaded-resource {
+  margin-bottom: 2rem; }
+  .committee-view .uploaded-resource h2 {
+    line-height: 1; }
+.committee-view .committee-head {
+  padding-bottom: 1rem; }

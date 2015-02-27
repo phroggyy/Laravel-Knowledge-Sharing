@@ -16,8 +16,9 @@ class KnowledgeController extends Controller {
 	 */
 	public function index($committee)
 	{
+		$committeeData = Committee::find($committee);
 		$links = Committee::find($committee)->links;
-		return view('committee', compact('links', 'committee'));
+		return view('committee', compact('links', 'committeeData'));
 	}
 
 	/**
@@ -27,8 +28,10 @@ class KnowledgeController extends Controller {
 	 */
 	public function create(Request $request)
 	{
-		Link::create(['title' => $request->title, 'url' => $request->url, 'description' => $request->description, 'committee' => $request->committee]);
-		return redirect()->route(['knowledge.committee.index', 'committee' => $request->committee]);
+		if ($request->auth == env('UPLOAD_AUTH')) :
+			Link::create(['title' => $request->title, 'url' => $request->url, 'description' => $request->description, 'committee' => intval($request->committee)]);
+		endif;
+		return redirect()->route('knowledge.committee.index', ['committee' => intval($request->committee)]);
 	}
 
 	/**
